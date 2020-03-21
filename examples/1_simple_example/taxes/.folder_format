@@ -1,0 +1,7 @@
+{
+	"description": "Simple tax example",
+	"items": [
+		{"type": "folder", "name":"my_taxes_{number}", "pattern": "multible", "range_min": 2017, "range_max": 2019},
+		{"type": "folder", "name":"my_taxes_2020", "required": true}
+	]
+}

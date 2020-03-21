@@ -1,0 +1,24 @@
+{
+	"description": "Stacked example of taxes",
+	"items": [
+		{
+			"type": "folder",
+			"name":"my_taxes_{number}",
+			"pattern": "multible",
+			"range_min": 2017,
+			"range_max": 2019,
+
+			"items": [
+				{"type": "file", "name": "income tax.pdf", "required": true},
+				{"type": "file", "name": "donations.xlsx"},
+				{
+					"type": "folder",
+					"name": "other documents",
+					"items": [
+						{ "type": "file", "name": ".pdf" }
+					]
+				}
+		]
+		}
+	]
+}
